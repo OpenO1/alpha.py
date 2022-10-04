@@ -19,6 +19,24 @@ console.write(f"Alpha: {alpha} | Beta: {beta}")
 
 ```
 
+# How do I get the informations about the alpha files that I have downloaded ?
+* In your program or in another python file write this:
+```py
+import pkgch
+pkgch.c(True)
+
+# output:
+# ID
+# VERSION
+# NAME
+# LANGUAGE
+#ID: status
+#Version: status
+#Module: status
+#Language: status
+```
+If one of this is "Incorrect." please re-download the alpha files and check them again.
+
 # What are the differences between Alpha & AlphaZero ?
 * To see the differences, please go check on https://zeyatsu.github.io/alpha
 
